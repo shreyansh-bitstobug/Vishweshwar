@@ -5,6 +5,7 @@ import Highlights from "./_components/(landingPage)/Highlights";
 import Products from "./_components/(landingPage)/Products";
 import OurValues from "./_components/(landingPage)/OurValues";
 import Footer from "./_components/(landingPage)/Footer";
+import WhatsAppButton from "./_components/(global)/WhatsappButton";
 
 export default function Home() {
   return (
@@ -12,11 +13,12 @@ export default function Home() {
       <HeroSlider />
       <div className="px-4 xl:px-56">
         <AboutUs />
-        <Highlights/>
-        <Products/>
-        <OurValues/>
-        <Footer/>
+        <Highlights />
+        <Products />
+        <OurValues />
+        <Footer />
       </div>
+      <WhatsAppButton phoneNumber="+918860670608" message="Hello!" />{" "}
     </>
   );
 }

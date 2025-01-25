@@ -53,20 +53,24 @@ const slides = [
       "Comprehensive range of high-quality petroleum products for diverse industrial needs:",
     products: [
       {
-        name: "LDO (Light Diesel Oil)",
-        desc: "High-efficiency fuel for industrial applications",
+        name: "Naphtha",
+        desc: "Versatile feedstock for petrochemical industries",
       },
       {
-        name: "Furnace Oil",
-        desc: "Premium heating solution for industrial boilers",
-      },
-      {
-        name: "MTO (Motor Turbine Oil)",
+        name: "MTO (MINERAL TURPENTINE OIL)",
         desc: "Advanced lubricant for turbine engines",
       },
       {
         name: "C9 Solvent",
         desc: "Versatile aromatic solvent for multiple applications",
+      },
+      {
+        name: "LDO (Light Diesel Oil)",
+        desc: "High-efficiency fuel for industrial applications",
+      },
+      {
+        name: "Base oil",
+        desc: "Essential component for lubricant formulations",
       },
     ],
     showLogo: false,

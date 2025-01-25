@@ -28,7 +28,7 @@ export const products = [
   {
     id: 2,
     title: "Furnace Oil",
-    image:"/image/product/baseOil.jpg",
+    image:"/image/product/furnance.jpg",
     shortDescription:
       "Furnace Oil is a heavy, viscous fuel used mainly in boilers, furnaces, and heavy industrial heating systems for energy generation and industrial heating.",
     detailedDescription: {
