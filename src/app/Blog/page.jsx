@@ -5,6 +5,38 @@ import { blogs } from "../lib/blog";
 import Link from "next/link";
 import { ArrowRight, Badge, Clock, User } from "lucide-react";
 
+export const metadata = {
+  title: "Blogs - Premium Petroleum Products",
+  description:
+    "Vishweshar Oil is a leading supplier of premium petroleum products, offering high-quality engine oils, lubricants, and more. Trusted by industries worldwide.",
+  keywords:
+    "petroleum, engine oil, lubricants, Voils, automotive oil, industrial lubricants, motor oil, synthetic oil",
+  openGraph: {
+    title: "Voils - Premium Petroleum & Lubricants",
+    description:
+      "Discover high-quality petroleum products from Voils. Engine oils, lubricants, and industrial solutions trusted worldwide.",
+    url: "https://voils.in",
+    siteName: "Voils",
+    type: "website",
+    images: [
+      {
+        url: "/logo_1.png", // Add an actual image URL
+        width: 1200,
+        height: 630,
+        alt: "Voils Petroleum Products",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@voils",
+    title: "Blogs - Premium Petroleum Products",
+    description:
+      "Vishweshwar Oil is a trusted name in petroleum, offering high-quality lubricants, engine oils, and industrial solutions.",
+    images: ["https://voils.in/logo_1.png"], // Add actual image URL
+  },
+};
+
 const BlogPage = () => {
   return (
     <div className="max-w-7xl mx-auto p-6 sm:px-10 lg:px-20">
